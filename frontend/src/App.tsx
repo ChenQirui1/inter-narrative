@@ -7,12 +7,12 @@ function App() {
   const [error, setError] = useState("");
 
   // Handle form input changes
-  const handleChange = (e) => {
+  const handleChange = (e: any) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
   // Handle form submission
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     setError("");
     setJwt("");
@@ -30,7 +30,7 @@ function App() {
 
       const data = await response.json();
       setJwt(data.token || "No token returned");
-    } catch (err) {
+    } catch (err: any) {
       setError(err.message);
     }
   };
