@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import "terminal.css";
 import "./App.css";
 import type { StoryRequest, StoryResponse, Beat } from "./types";
-import audioFile from "./assets/069b4730-b59f-4b02-b625-b6cd9e474bb6.mp3";
+import audioFile from "./assets/e86f1c0b-2c23-4a8b-acb8-b7b922f813bd.mp3";
 import { ReactTyped } from "react-typed";
 
 //basic tests
@@ -243,7 +243,7 @@ function App() {
                   {loading ? (
                     <ReactTyped
                       strings={["loading..."]}
-                      loop={true}
+                      // loop={true}
                       typeSpeed={40}
                       showCursor={false}
                     />
