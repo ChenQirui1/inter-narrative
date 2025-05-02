@@ -5,9 +5,12 @@
   line-height: 1.5;
   font-weight: 400;
 
+
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
+  /* background-image: url('./assets/58e41ade-d688-4062-829f-b6c56d0357c6.png'); */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,6 +33,12 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
+  min-height: 100vh;
+
+  background-image: url('./assets/58e41ade-d688-4062-829f-b6c56d0357c6_darker.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   min-height: 100vh;
 }
 

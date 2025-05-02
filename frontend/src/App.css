@@ -2,8 +2,31 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
 }
+
+:root {
+  --font-color: #ffffff;
+  --background-color: #222225;
+  --page-width: 60em;
+  --font-color: #e8e9ed;
+  --invert-font-color: #222225;
+  --secondary-color: #a3abba;
+  --tertiary-color: #a3abba;
+  --primary-color: #62c4ff;
+  --error-color: #ff3c74;
+  --progress-bar-background: #3f3f44;
+  --progress-bar-fill: #62c4ff;
+  --code-bg-color: #3f3f44;
+  --input-style: solid;
+  --font-color: #ffffff;
+  --background-color: #000000;
+
+  --color-primary: #0a0a0a;
+  --color-secondary: #339eff;
+  /* Optional: to go dark background */
+}
+
 
 .logo {
   height: 6em;
